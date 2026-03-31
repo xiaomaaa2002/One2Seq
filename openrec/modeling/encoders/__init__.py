@@ -7,14 +7,13 @@ def build_encoder(config):
     from .svtrnet2dpos import SVTRNet2DPos
     from .svtrv2 import SVTRv2
     from .svtrv2_lnconv import SVTRv2LNConv
-    from .svtrv2_lnconv_two33 import SVTRv2LNConvTwo33
     from .vit import ViT
     from .clip_encoder import CLIPEncoder
     
     support_dict = [
         'SVTRNet', 'ViT',
         'SVTRNet2DPos', 'SVTRv2', 'ResNet_ASTER',
-        'SVTRv2LNConv', 'SVTRv2LNConvTwo33', 'CLIPEncoder',
+        'SVTRv2LNConv', 'CLIPEncoder',
     ]
 
     module_name = config.pop('name')
