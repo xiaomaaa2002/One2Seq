@@ -32,7 +32,7 @@ Datasets should also be prepared according to the OpenOCR instructions:
 
 Pretrained weights are available at:
 
-👉 https://drive.google.com/drive/folders/1BaNoFWdI2n4leMRVs64iWVz4dYbg0oJK?usp=drive_link
+👉 https://drive.google.com/drive/folders/1DXrPW0qThRq7Hj9YKt-9x18q_2HK6t1j?usp=drive_link
 
 ---
 
