@@ -533,7 +533,7 @@ class SVTRNet(nn.Module):
 
     def forward_features(self, x):
         x = self.patch_embed(x)
-        # x = x + self.pos_embed
+        x = x + self.pos_embed
         x = self.pos_drop(x)
         for blk in self.blocks1:
             x = blk(x)
