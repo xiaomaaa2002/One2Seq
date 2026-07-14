@@ -28,9 +28,9 @@ Datasets should also be prepared according to the OpenOCR instructions:
 
 ---
 
-## 📦 Pretrained Models
+## 📦 Checkpoints
 
-Pretrained weights are available at:
+The trained model checkpoints presented in the paper can be downloaded here:
 
 👉 https://drive.google.com/drive/folders/1DXrPW0qThRq7Hj9YKt-9x18q_2HK6t1j?usp=drive_link
 
