@@ -180,7 +180,7 @@ class O2SDecoder(nn.Module):
         # prompt = self.prompt.unsqueeze(0).repeat(b, 1)
         
         tgt = tgt[:, :-1]
-        # tgt = tgt * self.max_len + self.pos_index[:tgt.shape[1]].unsqueeze(0)     
+        tgt = tgt * self.max_len + self.pos_index[:tgt.shape[1]].unsqueeze(0)     
         tgt = self.embedding(tgt)
 
         query = self.fusion(prompt, tgt, 'ar')
