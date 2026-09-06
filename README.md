@@ -69,7 +69,7 @@ If you find this work useful, please consider citing:
 ```bibtex
 @inproceedings{ma2026one2seq,
   title={One2Seq: One-Token Wise Decoder for Efficient Scene Text Recognition},
-  author={Ma, Zhibin and Dai, Pengwen and Zhuo, Wei and Qin, Xugong},
+  author={Zhibin Ma and Pengwen Dai and Wei Zhuo and Xugong Qin},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={40},
   number={10},
